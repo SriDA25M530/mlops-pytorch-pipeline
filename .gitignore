@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+env/
+
+# DVC
+/data/raw/*
+/data/processed/*
+!/data/raw/*.dvc
+!/data/processed/*.dvc
+.dvc/config.local
