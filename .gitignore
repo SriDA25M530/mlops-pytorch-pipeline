@@ -6,6 +6,7 @@ venv/
 env/
 
 # DVC
+/data/*
 /data/raw/*
 /data/processed/*
 !/data/raw/*.dvc
